@@ -16,6 +16,7 @@ TOKEN = os.environ.get("ACCESS_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
 HEADERS = {"Authorization": f"bearer {TOKEN}", "User-Agent": USER}
 
 WIDTH = 58  # chars per info line
+ASCII_FONT, ASCII_LH = 8, 8  # small font so the avatar has more detail
 
 INFO = [
     ("title", "matheus@ramos"),
@@ -186,10 +187,10 @@ def build_lines(s):
 def render(theme, ascii_lines, info_lines):
     c = THEMES[theme]
     lh, top = 20, 30
-    rows = max(len(ascii_lines), len(info_lines))
-    height = top + rows * lh + 10
+    height = max(top + len(info_lines) * lh + 10, len(ascii_lines) * ASCII_LH + 30)
+    ascii_top = (height - len(ascii_lines) * ASCII_LH) // 2 + ASCII_LH - 2
     ascii_text = "\n".join(
-        f'<tspan x="15" y="{top + i * lh}">{escape(l)}</tspan>' for i, l in enumerate(ascii_lines))
+        f'<tspan x="20" y="{ascii_top + i * ASCII_LH}">{escape(l)}</tspan>' for i, l in enumerate(ascii_lines))
     info_text = "\n".join(
         f'<tspan x="400" y="{top + i * lh}">{l}</tspan>' for i, l in enumerate(info_lines))
     return f'''<?xml version="1.0" encoding="UTF-8"?>
@@ -204,7 +205,7 @@ text, tspan {{ white-space: pre; }}
 .del {{ fill: {c["dele"]}; }}
 </style>
 <rect width="985px" height="{height}px" fill="{c["bg"]}" rx="15"/>
-<text xml:space="preserve" fill="{c["text"]}" class="ascii">
+<text xml:space="preserve" fill="{c["text"]}" font-size="{ASCII_FONT}px">
 {ascii_text}
 </text>
 <text xml:space="preserve" fill="{c["text"]}">
