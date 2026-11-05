@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas,'Courier New',monospace" width="985px" height="540px" font-size="16px">
+<style>
+text, tspan { white-space: pre; }
+.title { fill: #c9d1d9; font-weight: bold; }
+.key { fill: #ffa657; }
+.value { fill: #a5d6ff; }
+.cc { fill: #616e7f; }
+.add { fill: #3fb950; }
+.del { fill: #f85149; }
+</style>
+<rect width="985px" height="540px" fill="#161b22" rx="15"/>
+<text xml:space="preserve" fill="#c9d1d9" class="ascii">
+<tspan x="15" y="30">                .:|k%#j`.</tspan>
+<tspan x="15" y="50">              ,j%8Hm@8%wmlkj|.</tspan>
+<tspan x="15" y="70">            :w%WWW@@&amp;&amp;&amp;88###m`</tspan>
+<tspan x="15" y="90">           jH8&amp;@%mH#8@WmMH8&amp;W%k:</tspan>
+<tspan x="15" y="110">          lH&amp;%H&amp;m#@m#WM8WM&amp;%H&amp;%m:</tspan>
+<tspan x="15" y="130">         ,@HW#%8m&amp;M@HW#%8m&amp;M@Hl,.</tspan>
+<tspan x="15" y="150">         !&amp;#M%@#M%@8M%@8H%@8Hmw;</tspan>
+<tspan x="15" y="170">         !888##HHHMMmmm%%W%W@@l&#x27;</tspan>
+<tspan x="15" y="190">         :#&amp;@%mM#8@W%MH8&amp;@%mH#i</tspan>
+<tspan x="15" y="210">         &#x27;k@m#@m8WMm%H&amp;%%&amp;m%mm!</tspan>
+<tspan x="15" y="230">           kHik%8m&amp;mwkj!jl|;&#x27;.</tspan>
+<tspan x="15" y="250">           &#x27;:l!l%lm%!`. ., :</tspan>
+<tspan x="15" y="270">             :W!|:.``   .``;</tspan>
+<tspan x="15" y="290">             || .j|`.   &#x27;`;</tspan>
+<tspan x="15" y="310">            |WMj::jjki::,|i`</tspan>
+<tspan x="15" y="330">          ,w@HW#%wk|ikmW#%8mwj!.</tspan>
+<tspan x="15" y="350">      .,|m8HmW&amp;HmW&amp;#mW&amp;#MW&amp;#M%&amp;#`</tspan>
+<tspan x="15" y="370">    ,k&amp;&amp;88###HHMMMmm%%%WW@@@&amp;&amp;88m</tspan>
+<tspan x="15" y="390">   !#8@WmMH8&amp;W%mH#&amp;@WmM#8&amp;W%MH#&amp;@&#x27;</tspan>
+<tspan x="15" y="410">  |@m#WM8WM&amp;%H&amp;%#@m#@M8WM8%H&amp;%H@m.</tspan>
+<tspan x="15" y="430"> |&amp;M@HW#%8m&amp;M@HW#%8m&amp;M@HW#%8m&amp;M@i</tspan>
+<tspan x="15" y="450">:M%@8M%@8H%@8Hm@8HmW8HmW&amp;HmW&amp;#m%.</tspan>
+<tspan x="15" y="470">HHHMMmmm%%WWW@@&amp;&amp;&amp;88###HHMMMmm%|</tspan>
+<tspan x="15" y="490">M#8@W%MH8&amp;@%mH#8@WmMH8&amp;W%mH#&amp;@W&#x27;</tspan>
+<tspan x="15" y="510">m8WM8WH&amp;%H&amp;m#@m#WM8WM&amp;%H&amp;%#@m#m</tspan>
+</text>
+<text xml:space="preserve" fill="#c9d1d9">
+<tspan x="400" y="30"><tspan class="title">matheus@ramos</tspan> <tspan class="cc">—————————————————————————————————————————-—-</tspan></tspan>
+<tspan x="400" y="50">. <tspan class="key">OS</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value">Windows 10</tspan></tspan>
+<tspan x="400" y="70">. <tspan class="key">Uptime</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">3 years, 5 months, 14 days</tspan></tspan>
+<tspan x="400" y="90">. <tspan class="key">Host</tspan>:<tspan class="cc"> ....................................... </tspan><tspan class="value">Solaire W+</tspan></tspan>
+<tspan x="400" y="110">. <tspan class="key">Kernel</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">Full Stack Developer</tspan></tspan>
+<tspan x="400" y="130">. <tspan class="key">IDE</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">VSCode</tspan></tspan>
+<tspan x="400" y="150"><tspan class="cc">. </tspan></tspan>
+<tspan x="400" y="170">. <tspan class="key">Languages.Programming</tspan>:<tspan class="cc"> .. </tspan><tspan class="value">TypeScript, JavaScript, Python</tspan></tspan>
+<tspan x="400" y="190">. <tspan class="key">Languages.Computer</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">HTML, CSS, JSON, SQL, Shell</tspan></tspan>
+<tspan x="400" y="210">. <tspan class="key">Languages.Real</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">Portuguese, English</tspan></tspan>
+<tspan x="400" y="230"><tspan class="cc">. </tspan></tspan>
+<tspan x="400" y="250">. <tspan class="key">Hobbies.Software</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">Linux Ricing, Hyprland</tspan></tspan>
+<tspan x="400" y="270">. <tspan class="key">Hobbies.Hardware</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Custom Setups</tspan></tspan>
+<tspan x="400" y="290"><tspan class="cc">. </tspan></tspan>
+<tspan x="400" y="310">- Contact <tspan class="cc">—————————————————————————————————————————————-—-</tspan></tspan>
+<tspan x="400" y="330">. <tspan class="key">Email.Work</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">admin@solairew.com.br</tspan></tspan>
+<tspan x="400" y="350">. <tspan class="key">Website</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">ramosx.tech</tspan></tspan>
+<tspan x="400" y="370">. <tspan class="key">GitHub</tspan>:<tspan class="cc"> ....................................... </tspan><tspan class="value">ramosxzz</tspan></tspan>
+<tspan x="400" y="390"><tspan class="cc">. </tspan></tspan>
+<tspan x="400" y="410">- GitHub Stats <tspan class="cc">————————————————————————————————————————-—-</tspan></tspan>
+<tspan x="400" y="430">. <tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">35 {Contributed: 38}</tspan> | <tspan class="key">Stars</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">0</tspan></tspan>
+<tspan x="400" y="450">. <tspan class="key">Commits</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">75</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">2</tspan></tspan>
+<tspan x="400" y="470">. <tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> . </tspan><tspan class="value">100,561</tspan> ( <tspan class="add">134,826++</tspan>, <tspan class="del">34,265--</tspan> )</tspan>
+</text>
+</svg>
